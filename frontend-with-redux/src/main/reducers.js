@@ -2,18 +2,18 @@ import { combineReducers } from  'redux'
 
 const rootReducer = combineReducers({
   todo: () => ({
-    decription: 'Read books',
+    description: 'Read books',
     list: [{
       _id: 1,
-      decription: 'Pay bills',
+      description: 'Pay bills',
       done: true
     }, {
       _id: 2,
-      decription: 'Medical check-up',
+      description: 'Medical check-up',
       done: false
     }, {
       _id: 3,
-      decription: 'Buy groceries',
+      description: 'Buy groceries',
       done: false
     }]
   })
